@@ -1,0 +1,25 @@
+body {
+    background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+    background: linear-gradient(to right, #1d2671, #c33764);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.keyBoard {
+    width: 50%;
+}
+
+button {
+    color: black;
+    font-weight: 500;
+    min-width: 55px;
+    height: 55px;
+    border: none;
+    background: rgb(214, 214, 214);
+    box-shadow: 0 0 10px #9521f3, 0 0 40px #c600ee, 0 0 80px #f704f7;
+    margin: 5px;
+    border-radius: 20%;
+}
+
+button:active {
+    box-shadow: 1px 1px 2px #fd0c99, 1px 1px 2px #ff00dd;
+}
